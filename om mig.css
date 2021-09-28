@@ -1,0 +1,86 @@
+body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            padding: 2px;
+            text-align: center;
+            background: rgba(58, 192, 226, 0.863);
+            color: rgb(14, 13, 13);
+            font-size: 12px;
+        }
+
+        body {
+            background-image: url('./img_ommig.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(19, 2, 2);
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: rgba(58, 192, 226, 0.863);
+            color: black;
+        }
+        body,
+        html {
+            height: 100%;
+            color: rgba(58, 192, 226, 0.863);
+            line-height: 1.8;
+        }
+table {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        width: 100%;
+                        border: 1px solid rgb(221, 221, 221);
+                    }
+
+                    th,
+                    td {
+                        text-align: center;
+                        padding: 16px;
+                    }
+
+                    th:first-child,
+                    td:first-child {
+                        text-align: left;
+                    }
+
+                    tr:nth-child(even) {
+                        background-color: black;
+                    }
+
+                    .fa-check {
+                        color: green;
+                    }
+
+                    .fa-remove {
+                        color: rgb(241, 236, 236);
+                    }
